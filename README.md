@@ -38,9 +38,9 @@ The OpenWeatherAPI allows you to pull in many weather related statistics for ana
 ## How did North Carolina and United States COVID-19 data compare over time?
 ### Tests per capita
 #### Code for charts can be found in "..."
-* MS analysis
+* MdS analysis
 
-### Hospitalizations and Deats per capita
+### Hospitalizations and Deaths per capita
 #### Code for charts can be found in "GoughE_NCvUS_TimelineTrends.ipynb".
 * After creating per capita variables for the increase in COVID-19 hospitalizations and COVID-19 related deaths, we were able to find the North Carolina performed slightly better than the nation as a whole. NC was not subject to the two peaks in hospitalizations that occurred in the US in May 2020 and July 2020, but roughly mirrored the US's pattern after that, while mostly remaining below the US's hospitalization rates.
 * A first attempt at graphing the increase in COVID-19 related deaths created unreadable data due to the variability. As a result, data was grouped by the sum of deaths per month. The US and NC's COVID-19 realted deaths pattern over time is very similar to the hospitalization rate. A very notable difference is that for September and October 2022 that NC had more deaths per capita than the US.
@@ -55,7 +55,7 @@ The OpenWeatherAPI allows you to pull in many weather related statistics for ana
 
 ## Is there a correlation between positive COVID test and temperature?
 #### Code for charts can be found in "...".
-* MS analysis
+* MdS analysis
 
 ## What was the ratio of viral tests to antigen tests in North Carolina, and did the 9/30/20 introduction of antigen tests impact the state’s overall negative testing rate?
 #### Code for charts can be found in "...".
@@ -67,4 +67,28 @@ The OpenWeatherAPI allows you to pull in many weather related statistics for ana
 
 ## Data Limitations
 * The US Census didn't have consistent month by month estimates for the date ranges we were looking for, and as a result the same population number was used for all 2020 data, and all 2021 data. With more robust population data, the analysis would be more accurate.
-* 
+* AM analysis on antigen v viral categories
+* MdS analysis on OpenWeatherAPI
+
+## Conclusions
+* Looking at contextualized per capita data over time NC COVID-19 numbers were slightly better than the US as a whole, excluding a couple months where our numbers were worse.
+* MdS conclusions
+* KM conclusions
+* JA conclusions
+* AM conclusions
+* JL conclusions
+
+### Group Members
+* Everette Gough
+* Austin McConnell
+* Keisha Maldonado
+* Joanna Lewis
+* Michele di Sanctis
+* Joseph Anthony
+
+### Additional Help Provided by:
+* Teaching Assistants
+  * Antonio Laverghetta Jr.
+  * Arda Sertel
+* AskBCS
+* StackOverflow
