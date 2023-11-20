@@ -59,7 +59,7 @@ The OpenWeatherAPI allows you to pull in many weather related statistics for ana
 
 ## Is there a correlation between positive COVID test and temperature?
 #### Code for charts can be found in "corr_poscases_temp.ipynb"
-* 
+* For this analysis the idea was to evaluate if there was any correlation between the average temperature and the number of positive cases, so we would use the OpenWeather API to obtain the average temperatures over the years 2020 and 2021. Although to obtain access to the historical data from the Open Weather we need to subscribe, so we could not finish this part of the study.
 
 ## What was the ratio of viral tests to antigen tests in North Carolina, and did the 9/30/20 introduction of antigen tests impact the state’s overall negative testing rate?
 #### Code for charts can be found in "Austin-Group-Project-Code.ipynb".
@@ -76,11 +76,11 @@ The OpenWeatherAPI allows you to pull in many weather related statistics for ana
 ## Data Limitations
 * The US Census didn't have consistent month by month estimates for the date ranges we were looking for, and as a result, the same population number was used for all 2020 data, and all 2021 data. With more robust population data, the analysis would be more accurate.
 * The biggest limitation when examining North Carolina's viral vs. antigen testing data was the lack of a test type designation for each positive test. Because we were unable to see specific negative testing rates per test type, we were forced to speculate on the impact of the introduction of antigen testing by using the overall negative testing rate for the state. If we had access to more detailed data for each test type, it would be much easier to evaluate the true impact of antigen testing.
-* MdS analysis on OpenWeatherAPI
+* The OpenWeather requires a subscription to give access to the historical data, because of this we were not able to evaluate the correlation between the average temperatures and the number of positive cases.
 
 ## Conclusions
 * Looking at contextualized per capita data over time NC COVID-19 numbers were slightly better than the US as a whole, excluding a couple of months where our numbers were worse.
-* MdS conclusions
+* NC had fewer positive cases per capita than US and also performed fewer tests per capita.
 * KM conclusions
 * JA conclusions
 * The percentage of negative tests in North Carolina actually decreased following the introduction of antigen testing, but it is likely that the spike in positive cases around the 2020 holiday season and increased access to testing played major roles in this shift.
@@ -100,3 +100,6 @@ The OpenWeatherAPI allows you to pull in many weather related statistics for ana
   * Arda Sertel
 * AskBCS
 * StackOverflow
+* Tutoring sessions
+   * Geronimo Perez
+   * Reza Abasaltian
