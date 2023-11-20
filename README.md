@@ -19,3 +19,15 @@ The US Census Bureau creates population statistics every 10 years. We were able 
   * This is located in the Resources folder under "NST-EST2022-ALLDATA.csv"
  
 ### OpenWeatherAPI
+The OpenWeatherAPI allows you to pull in many weather related statistics for analysis. We attempted to pull average temperature data from the OpenWeatherAPI to see if temperature had a role in COVID-19 outcomes. (https://openweathermap.org/)
+
+## Questions to Answer
+* How did North Carolina and United States COVID-19 data compare over time?
+* Is there a correlation between positive COVID tests and hospitalizations?
+* Is there a correlation between the number of tests administered and deaths?
+* Is there a correlation between positive COVID test and temperature?
+* What was the ratio of viral tests to antigen tests in North Carolina, and did the 9/30/20 introduction of antigen tests impact the state’s overall negative testing rate?
+* How do mortality rates in North Carolina compare between different racial/ethnic groups? Is there a correlation between the total of cases to deaths?
+
+## Data Data Retrieval and Assembly
+
