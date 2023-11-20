@@ -30,4 +30,18 @@ The OpenWeatherAPI allows you to pull in many weather related statistics for ana
 * How do mortality rates in North Carolina compare between different racial/ethnic groups? Is there a correlation between the total of cases to deaths?
 
 ## Data Data Retrieval and Assembly
+1. We downloaded the data from The COVID Tracking Project and the US Census Bureau to include in our repository for analysis.
+2. We obtained an API key from OpenWeatherAPI to access average temperature data.
+3. Using Pandas we cleaned the data from the COVID Tracking Project to isolate only the variables of interest from both US and NC. We also added population estimates from the US Census Bureau We then merged all this data to create the combined CSV that can be found in Resources under "US_NC_Combined". Code for data cleanging can be found in "adding_populatin_columns.ipynb".
+4. Using matplotlib, we created charts to analyze data and uncover trends.
+
+## How did North Carolina and United States COVID-19 data compare over time?
+### Tests per capita
+
+### Hospitalizations and Deats per capita
+#### Code for charts can be found in "GoughE_NCvUS_TimelineTrends.ipynb".
+* After creating per capita variables for the increase in COVID-19 hospitalizations and COVID-19 related deaths, we were able to find the North Carolina performed slightly better than the nation as a whole. NC was not subject to the two peaks in hospitalizations that occurred in the US in May 2020 and July 2020, but roughly mirrored the US's pattern after that, while mostly remaining below the US's hospitalization rates.
+* A first attempt at graphing the increase in COVID-19 related deaths created unreadable data due to the variability. As a result, data was grouped by the sum of deaths per month. The US and NC's COVID-19 realted deaths pattern over time is very similar to the hospitalization rate. A very notable difference is that for September and October 2022 that NC had more deaths per capita than the US.
+
+
 
