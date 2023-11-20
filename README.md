@@ -88,7 +88,7 @@ In the state of NC, we can see a moderate correlation coefficient of .55 of the 
 * There was a strong positive relationship between the number of tests conducted in a day and the number of hospitalizations on the same day. This was true not only in North Carolina but also in the US as a whole, with the correlation in the US being slightly higher (.80 vs. 83). This slight difference could be due to our larger US sample size or differences in testing strategies/hospitalization admittance between states. 
 * When looking at the corrolation between the total test results and deaths, along with the correlation between positive cases and hospitilizations between both the US and the state of NC, we can conclude that the corrolation coefficiant of .55 was the same in NC for both analysis. The correlation coefficient in the US was strong in both of these analysis, however, they varied between .70 and .67, as compared to NC, where the corrolation coeffients yielded the same output.
 * The percentage of negative tests in North Carolina actually decreased following the introduction of antigen testing, but it is likely that the spike in positive cases around the 2020 holiday season and increased access to testing played major roles in this shift.
-* JL conclusions
+* In NC the White community had the highest amount of deaths compared to other racial and ethnic groups. The correlation between cases vs death, the Black community had a significant impact, with a notable number of deaths, compared to other racial and ethnic groups.  
 
 ### Group Members
 * Everette Gough
