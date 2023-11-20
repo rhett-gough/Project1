@@ -50,8 +50,8 @@ The OpenWeatherAPI allows you to pull in many weather related statistics for ana
 * A first attempt at graphing the increase in COVID-19 related deaths created unreadable data due to the variability. As a result, data was grouped by the sum of deaths per month. The US and NC's COVID-19 related death pattern over time is very similar to the hospitalization rate. A very notable difference is that for September and October 2022, NC had more deaths per capita than the US.
 
 ## Is there a correlation between positive COVID tests and hospitalizations?
-#### Code for charts can be found in "...".
-* KM analysis
+#### Code for charts can be found in "Questions 5a and 5b.ipynb".
+* For this analysis, a scatterplot was created to compare the "HospitalizedCurrently" values to the "TotalTestResultsIncrease" values for the same dates. To do this, two new dataframes were created, one that contained dates and their respective North Carolina data, and another with dates and the US values. Through this analysis we found that there was a strong positive relationship between amount of tests conducted in a day to amount of hospitalizations in North Carolina and the US as a whole, with the correlation in the US being slight higher (.80 vs. 83), but this could be due to there being more US data. 
 
 ## Is there a correlation between the number of tests administered and deaths?
 #### Code for charts can be found in "...".
@@ -81,7 +81,7 @@ The OpenWeatherAPI allows you to pull in many weather related statistics for ana
 ## Conclusions
 * Looking at contextualized per capita data over time NC COVID-19 numbers were slightly better than the US as a whole, excluding a couple of months where our numbers were worse.
 * NC had fewer positive cases per capita than US and also performed fewer tests per capita.
-* KM conclusions
+* There was a strong positive relationship between the number of tests conducted in a day and the number of hospitalizations on the same da. This was true not only in North Carolina but also in the US as a whole, with the correlation in the US being slightly higher (.80 vs. 83). This slight difference could be due to more US data. 
 * JA conclusions
 * The percentage of negative tests in North Carolina actually decreased following the introduction of antigen testing, but it is likely that the spike in positive cases around the 2020 holiday season and increased access to testing played major roles in this shift.
 * JL conclusions
