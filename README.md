@@ -70,9 +70,11 @@ The OpenWeatherAPI allows you to pull in many weather related statistics for ana
 * These results actually go against the theory that the increased propensity for antigen tests to produce false negatives would lead to a higher overall negative COVID-19 testing rate in the state. However, a closer look at the graphs shows there were other major factors at play, namely the holiday season of 2020 when positive cases spiked due to large group gatherings. Furthermore, as seen in a previous graph, overall access to testing was increasing at a swift rate and likely had an impact on the positive/negative rates.
 
 ## How do mortality rates in North Carolina compare between different racial/ethnic groups? Is there a correlation between the total of cases to deaths?
-#### Code for charts can be found in "...".
-* JL analysis
-
+#### Code for charts can be found in "Project 1_Questions 7_ A & B.ipynb".
+* The examination of COVID-19 data in North Carolina has brought attention to notable variations in the impact of the virus across different racial and ethnic groups. Surprisingly, the data indicates that, contrary to national trends, the White and Non-Hispanic populations in the state have experienced higher death rates compared to other groups.
+* The White population had the highest death rate of 232,000. While American Indian or Alaska Native have the lowest death rate of 4,533. In the ethnicity group Non-Hispanic had the highest death rate of 307,673. 
+* Diving deeper into the correlation between cases and deaths, even though the White population has a larger number of cases, the death rate is relatively lower compared to the Black community. The Black community has experienced a significant impact, with a notable number of deaths. The total amount of cases were approximately 4.7 million and out of those cases there were 101,706 deaths.
+  
 ## Data Limitations
 * The US Census didn't have consistent month by month estimates for the date ranges we were looking for, and as a result, the same population number was used for all 2020 data, and all 2021 data. With more robust population data, the analysis would be more accurate.
 * The biggest limitation when examining North Carolina's viral vs. antigen testing data was the lack of a test type designation for each positive test. Because we were unable to see specific negative testing rates per test type, we were forced to speculate on the impact of the introduction of antigen testing by using the overall negative testing rate for the state. If we had access to more detailed data for each test type, it would be much easier to evaluate the true impact of antigen testing.
