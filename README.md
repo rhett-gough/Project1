@@ -59,7 +59,11 @@ The OpenWeatherAPI allows you to pull in many weather related statistics for ana
 
 ## What was the ratio of viral tests to antigen tests in North Carolina, and did the 9/30/20 introduction of antigen tests impact the state’s overall negative testing rate?
 #### Code for charts can be found in "...".
-* AM analysis
+* After comparing North Carolina's COVID-19 data to the nation as a whole, we decided to focus on the number of viral and antigen tests administered in the state from the beginning of the pandemic to spring 2021. Viral tests are the traditional molecular tests that became the early standard for testing nationwide, while antigen tests are the rapid, at-home version that arrived later in the year 2020. Our initial pie chart was created by comparing the total number of viral and antigen tests administered in the time period, which showed that over 92% of tests were in the "viral" category.
+* A closer look at the data revealed that antigen testing arrived in North Carolina on September 30, 2020, which gave us the opportunity to do a before-and-after comparison of testing rates around the introduction of a new test type. Based on prior knowledge, we know that rapid at-home tests tend to be less reliable than the original viral tests, and that they have a tendency to produce false negative results at a higher rate. With this in mind, we thought it would be interesting to compare the negative daily COVID-19 testing rate in the time periods before and after September 30, 2020.
+* Because there was no column for the negative testing rate, we started by caluclating this number for each date via the total number of tests and the increase in positive results. Once we calculated the negative testing rate throughout the time period, we dropped any days where zero tests were administered and changed all NaN values to zeroes. After plotting a simple line graph for the entire period and marking the last date prior to antigen testing with a red line, we thought it would be useful to create two separate scatter plots for the before-and-after comparison complete with lines of regression.
+* In order to successfully plot lines of regression, we researched how to convert dates to date ordinal numbers and plotted the dates on the x axis in this manner. In the end, the "before" plot showed slightly positive regression in the negative COVID-19 rate leading up to the introduction of antigen testing in North Carolina, and slightly negative correlation following the introduction of antigen testing.
+* These results actually go against the theory that the increased propensity for antigen tests to produce false negatives would lead to a higher overall negative COVID-19 testing rate in the state. However a closer look at the graphs shows there were other major factors at play, namely the holiday season of 2020 when positive cases spiked due to large group gatherings. Furthermore, as seen in a previous graph, overall access to testing was increasing at a swift rate and likely had an impact on the positive/negative rates.
 
 ## How do mortality rates in North Carolina compare between different racial/ethnic groups? Is there a correlation between the total of cases to deaths?
 #### Code for charts can be found in "...".
@@ -67,7 +71,7 @@ The OpenWeatherAPI allows you to pull in many weather related statistics for ana
 
 ## Data Limitations
 * The US Census didn't have consistent month by month estimates for the date ranges we were looking for, and as a result the same population number was used for all 2020 data, and all 2021 data. With more robust population data, the analysis would be more accurate.
-* AM analysis on antigen v viral categories
+* The biggest limitation when examining North Carolina's viral vs. antigen testing data was the lack of a test type designation for each positive test. Because we were unable to see specific negative testing rates per test type, we were forced to speculate on the impact of the introduction of antigen testing by using the overall negative testing rate for the state. If we had access to more detailed data for each test type, it would be much easier to evaluate the true impact of antigen testing.
 * MdS analysis on OpenWeatherAPI
 
 ## Conclusions
@@ -75,7 +79,7 @@ The OpenWeatherAPI allows you to pull in many weather related statistics for ana
 * MdS conclusions
 * KM conclusions
 * JA conclusions
-* AM conclusions
+* The percentage of negative tests in North Carolina actually decreased following the introduction of antigen testing, but it is likely that the spike in positive cases around the 2020 holiday season and increased access to testing played major roles in this shift.
 * JL conclusions
 
 ### Group Members
