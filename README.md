@@ -81,7 +81,7 @@ The OpenWeatherAPI allows you to pull in many weather related statistics for ana
 ## Conclusions
 * Looking at contextualized per capita data over time NC COVID-19 numbers were slightly better than the US as a whole, excluding a couple of months where our numbers were worse.
 * NC had fewer positive cases per capita than US and also performed fewer tests per capita.
-* There was a strong positive relationship between the number of tests conducted in a day and the number of hospitalizations on the same da. This was true not only in North Carolina but also in the US as a whole, with the correlation in the US being slightly higher (.80 vs. 83). This slight difference could be due to more US data. 
+* There was a strong positive relationship between the number of tests conducted in a day and the number of hospitalizations on the same day. This was true not only in North Carolina but also in the US as a whole, with the correlation in the US being slightly higher (.80 vs. 83). This slight difference could be due to our larger US sample size or differences in testing strategies/hospitalization admittance between states. 
 * JA conclusions
 * The percentage of negative tests in North Carolina actually decreased following the introduction of antigen testing, but it is likely that the spike in positive cases around the 2020 holiday season and increased access to testing played major roles in this shift.
 * JL conclusions
