@@ -54,8 +54,10 @@ The OpenWeatherAPI allows you to pull in many weather related statistics for ana
 * For this analysis, a scatterplot was created to compare the "HospitalizedCurrently" values to the "TotalTestResultsIncrease" values for the same dates. To do this, two new dataframes were created, one that contained dates and their respective North Carolina data, and another with dates and the US values. Through this analysis we found that there was a strong positive relationship between amount of tests conducted in a day to amount of hospitalizations in North Carolina and the US as a whole, with the correlation in the US being slight higher (.80 vs. 83), but this could be due to there being more US data. 
 
 ## Is there a correlation between the number of tests administered and deaths?
-#### Code for charts can be found in "...".
-* JA analysis
+#### Code for charts can be found in "Project1 Questions 2 & 3.ipynb".
+* For correlation between the total test result result increase and deaths in NC, a scatter plot was created with linear regression lines to visually show The United States as a whole compared to the state of North Carolina side by side. In the US, there is also a strong correlation coefficient of .67 of total death increase as compared to the total test results.
+In the state of NC, we can see a moderate correlation coefficient of .55 of the number of deaths compared to total test results increase.
+
 
 ## Is there a correlation between positive COVID test and temperature?
 #### Code for charts can be found in "corr_poscases_temp.ipynb"
@@ -84,7 +86,7 @@ The OpenWeatherAPI allows you to pull in many weather related statistics for ana
 * Looking at contextualized per capita data over time NC COVID-19 numbers were slightly better than the US as a whole, excluding a couple of months where our numbers were worse.
 * NC had fewer positive cases per capita than US and also performed fewer tests per capita.
 * There was a strong positive relationship between the number of tests conducted in a day and the number of hospitalizations on the same day. This was true not only in North Carolina but also in the US as a whole, with the correlation in the US being slightly higher (.80 vs. 83). This slight difference could be due to our larger US sample size or differences in testing strategies/hospitalization admittance between states. 
-* JA conclusions
+* When looking at the corrolation between the total test results and deaths, along with the correlation between positive cases and hospitilizations between both the US and the state of NC, we can conclude that the corrolation coefficiant of .55 was the same in NC for both analysis. The correlation coefficient in the US was strong in both of these analysis, however, they varied between .70 and .67, as compared to NC, where the corrolation coeffients yielded the same output.
 * The percentage of negative tests in North Carolina actually decreased following the introduction of antigen testing, but it is likely that the spike in positive cases around the 2020 holiday season and increased access to testing played major roles in this shift.
 * JL conclusions
 
