@@ -107,3 +107,5 @@ In the state of NC, we can see a moderate correlation coefficient of .55 of the 
 * Tutoring sessions
    * Geronimo Perez
    * Reza Abasaltian
+     
+#### Presentation Slides can be found under "Project 1 - COVID Data.pdf"
